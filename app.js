@@ -1,11 +1,14 @@
 const Calculator = {
     add : function (x , y) {
-        console.log(x + y) ;
+        return x + y;
     },
     minus : function (x , y) {
-        console.log(x - y) ;
+        return x - y ;
     }
 };
 
-Calculator.add(10, 5)
-Calculator.minus(10, 5)
+let x = Calculator.add(10, 5)
+let y = Calculator.minus(10, 5)
+
+console.log(x)
+console.log(y)
